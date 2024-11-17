@@ -75,6 +75,7 @@ neetcode-ts/
 - `npm test` - Run all tests.
 - `npm run lint` - Run ESLint for code quality checks.
 - `npm run format` - Run Prettier to format code.
+- `npm run check` - Run lint and format.
 
 ## Contributing
 
