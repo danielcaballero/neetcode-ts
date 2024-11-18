@@ -57,17 +57,28 @@ Format the codebase:
 npm run format
 ```
 
+### 6. Run All Checks
+
+To run both linting and formatting checks:
+
+```bash
+npm run check
+```
+
+
 ## Project Structure
 
 ```
 neetcode-ts/
-├── src/                # Solution implementations
-├── tests/              # Test cases for solutions
-├── jest.config.js      # Jest configuration
-├── package.json        # Project metadata and scripts
-├── tsconfig.json       # TypeScript configuration
-├── .eslintrc.js        # ESLint configuration
-├── .prettierrc         # Prettier configuration
+├── src/
+│   └── problems/          # Solution implementations
+├── tests/                # Test cases for solutions
+├── jest.config.js        # Jest configuration
+├── package.json          # Project metadata and scripts
+├── tsconfig.json         # TypeScript configuration
+├── eslint.config.mjs     # ESLint configuration
+├── .prettierrc          # Prettier configuration
+└── .gitignore           # Git ignore rules
 ```
 
 ## Scripts
