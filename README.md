@@ -65,7 +65,6 @@ To run both linting and formatting checks:
 npm run check
 ```
 
-
 ## Project Structure
 
 ```
