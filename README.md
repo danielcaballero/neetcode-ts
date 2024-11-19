@@ -87,10 +87,6 @@ neetcode-ts/
 - `npm run format` - Run Prettier to format code.
 - `npm run check` - Run lint and format.
 
-## Contributing
-
-Feel free to fork the repository and create pull requests with improvements or additional problem solutions.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
